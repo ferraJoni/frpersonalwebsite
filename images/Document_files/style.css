@@ -1,0 +1,206 @@
+/* Global Styles */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url(images/background-body.jpg)
+  }
+  
+  /* Header and Navigation */
+  header {
+    background-color: #3e5796;
+    padding: 10px;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  header nav{
+    background-color: #1e2f59;
+    padding: 10px;
+    margin: 0%;
+    text-align: right;
+  }
+
+  .logo img {max-width: 250px;height: auto; position: left;}
+
+  
+  .banner {margin-top: 30px;}
+
+  .banner-text h1{
+        font-size: 50px;
+        font-family: 'Kaushan Script', cursive;
+    }
+    .banner-text h3{
+        font-size: 20px;
+        font-style: italic;
+    }
+  nav ul li {
+    display: inline-block;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+   
+  }
+  
+  nav ul li a:hover {
+    background-color: #6c86c9;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #3e5796;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #6c86c9;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Home Section */
+  section#introduction {
+    margin-bottom: 40px;
+    color: #ffffff;
+    width: 50%;
+    background: #819bd8;
+    
+  }
+  
+  section#introduction h2 {
+    color: #fff;
+  }
+  
+  /* Video Section */
+  section#video {
+    text-align: center;
+    color: #fff;
+  }
+  
+  .video-container {
+    position: relative;
+    max-width: 70%;
+    padding-bottom: 30.25%; /* 16:9 aspect ratio (change as needed) */
+    align-items: center;
+  }
+  
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* Main Content */
+  main {
+    padding: 20px;
+    text-align: center;
+  }
+
+  main.homemain{
+    color: #fff;
+    padding: 5% 0;
+    background-color: #819bd8;
+    width: 70%;
+    align-content: center;
+  }
+  
+  /* Hero Section */
+  .about-introduction{
+    color: #fff;
+    padding: 100px 0;
+    background-color: #819bd8;
+  }
+  
+  .hero h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3cb3a1;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+  
+  .cta-button:hover {
+    background-color: #6ed7c8;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #3e5796;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+
+   /* About portfolio Section */
+  /* Main Content */
+main {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  section{
+    background-color: #e6e6fa;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 9px;
+    box-shadow: 0 2px 4px #ffff(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 80%;
+  }
+  
+  div.para1{
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    text-align: center;
+
+  }
+  
+  section h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+
+  }
+  
+  section p {
+    margin-bottom: 10px;
+    font-size: 16px;
+    text-align: center;
+  }
+  section ul {
+    list-style-type: disc;
+    font-size: 16px;
+    text-align: center;
+  }
+  
